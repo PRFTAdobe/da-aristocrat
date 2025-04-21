@@ -1,4 +1,4 @@
 mountpoints:
   /:
-    url: https://content.da.live/prftadobe/aristocrat/
+    url: https://content.da.live/PRFTAdobe/da-aristocrat/
     type: markup
