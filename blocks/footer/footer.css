@@ -1,0 +1,107 @@
+.footer-wrapper {
+    background-color: var(--dark-grey);
+    color: var(--bg-white);
+    position: relative;
+    z-index: 5001;
+    box-sizing: border-box;
+    white-space: wrap;
+    box-sizing: border-box;
+}
+
+.footer-wrapper .footer .columns > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1024px;
+    margin: 0px auto 60px;
+}
+.footer-wrapper .footer .columns > div:first-of-type {
+    padding: 1.75rem 20px 0px 20px;
+}
+.footer-wrapper .footer .columns > div:last-of-type {
+    max-width: unset;
+}
+
+.footer-wrapper .footer .columns > div > div {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+}
+
+.footer-wrapper .footer .columns > div > div:first-of-type {
+    width: 240px;
+    margin-right: 30px;
+    margin-top: 0;
+}
+.footer-wrapper .footer .columns > div > div:first-of-type > p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+}
+.footer-wrapper .footer .columns > div > div:first-of-type > ul > li:first-of-type {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer-wrapper .footer .columns > div > div > p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--bg-white);
+    margin-bottom: 15px;
+}
+.footer-wrapper .footer .columns > div > div > ul {
+    margin: 0px;
+    list-style-type: none;
+    line-height: 1;
+    padding: 0;
+    list-style-position: inside;
+}
+.footer-wrapper .footer .columns > div > div > ul > li {
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+}
+.footer-wrapper .footer .columns > div > div > ul > li:hover {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.footer-wrapper .footer .columns > div:last-of-type {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--black);
+    margin-bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-wrapper .footer .columns > div:last-of-type > div {
+    width: auto;
+    margin: 0px auto;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 15px 0px;
+    max-width: 1024px;
+}
+.languages {
+    display: none;
+}
+@media (max-width: 768px){
+    .footer-wrapper .footer .columns > div {
+        flex-direction: column;
+    }
+    .footer-wrapper .footer .columns > div:last-of-type {
+        flex-direction: column;
+        height: auto;
+    }
+}

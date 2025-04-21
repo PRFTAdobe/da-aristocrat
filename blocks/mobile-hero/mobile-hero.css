@@ -1,0 +1,22 @@
+.mobile-hero-wrapper {
+    margin-bottom: 10%;
+}
+.mobile-hero.block > div:first-child div h2 {
+    font-size: 26px;
+    line-height: 30px;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    font-weight: 800;
+}
+
+.mobile-hero.block > div:nth-child(2) {
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-hero.block > div:nth-child(2) {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}

@@ -1,0 +1,61 @@
+.drop-down-menu.block ul {
+    display: none;
+}
+
+.section.blog-main-mobile {
+    padding-top: 0;
+}
+
+/* Dropdown Button */
+.drop-down-menu.block .title {
+    background-color: rgb(0 112 240 / 5%);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(45 45 48);
+    width: calc(100% - 25px);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+.drop-down-menu.block .title picture {
+    position: absolute;
+    right: 60px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.drop-down-menu.block ul {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    z-index: 1;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(0 112 240 / 5%);
+    border-radius: 8px;
+    height: 400px;
+    flex-direction: column;
+}
+
+.drop-down-menu.block ul li {
+    flex-grow: 1;
+}
+
+.drop-down-menu.block ul li a {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+    color: rgb(0 122 255);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+/* Show the dropdown content when the button is clicked */
+.drop-down-menu.block .show {
+    display: flex;
+}
+
